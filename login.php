@@ -33,7 +33,7 @@ if ( isset($_POST['who']) && isset($_POST['pass']) ) {
 <html>
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>Chuck Severance's Login Page</title>
+<title>Login Page</title>
 </head>
 <body>
 <div class="container">
@@ -48,11 +48,11 @@ if ( $failure !== false ) {
 ?>
 <form method="POST">
 <label for="nam">User Name</label>
-<input type="text" name="who" id="nam"><br/>
+<input type="text" name="who" id="nam" ><br/>
 <label for="id_1723">Password</label>
 <input type="text" name="pass" id="id_1723"><br/>
 <input type="submit" value="Log In">
-<input type="submit" name="cancel" value="Cancel">
+<input type="submit" name="cancel" value="Cancel">  
 </form>
 <hr>
 <p>Simple Rock - Paper - Scissor game in PHP.</p>
